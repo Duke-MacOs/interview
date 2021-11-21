@@ -1,7 +1,7 @@
 # 模拟 lodash _.get 函数
 根据 object 对象的 path 获取值。
 
-# 测试用例
+## 测试用例
 ```javascript
 var obj = {
   	selector: {
@@ -21,7 +21,7 @@ var obj = {
   get(obj, 'selector.to.toutiao', 'target[0]', 'target[2].name');
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
   var get = function(obj) {
   	const params = [...arguments].slice(1);

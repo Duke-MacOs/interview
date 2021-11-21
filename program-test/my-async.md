@@ -1,7 +1,7 @@
 # 实现 async/await
 实现一个 async/await 函数，这个函数接受一个 Generator 函数，返回一个自动执行状态机。
 
-# 测试用例
+## 测试用例
 ```javascript
 function a() {
 	return new Promise((resolve, reject) => {
@@ -33,7 +33,7 @@ fn().then((res) => {
 })
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
 function myAsync(generatorFun) {
 	return function(...args) {

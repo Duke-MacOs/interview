@@ -1,7 +1,7 @@
 # 树形结构扁平化
 树形结构扁平化
 
-# 测试用例
+## 测试用例
 ```javascript
 var userTree = [
     {
@@ -92,7 +92,7 @@ var userTree = [
 var userList = tree2list(userTree, 'province/city/district');
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
 function tree2list(tree, path) {
     path = path.split('/');

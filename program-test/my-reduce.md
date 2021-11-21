@@ -1,13 +1,13 @@
 # 实现 Array.reduce
 模拟实现 Array.prototype.reduce 函数
 
-# 测试用例
+## 测试用例
 ```javascript
 var arr = [1,2,3,'4',5]
 arr.myReduce((res, cur) => res += cur); // 16
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
 Array.prototype.myReduce = function(fn, initial) {
 	if(typeof fn !== 'function') {

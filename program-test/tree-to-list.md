@@ -1,7 +1,7 @@
 # 数组树形化
 将扁平的数组结构按一定要求树形化
 
-# 测试用例
+## 测试用例
 ```javascript
 var userList = [
  
@@ -23,7 +23,7 @@ var userList = [
 var userTree = list2tree(userList, 'province/city/district');
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
 function list2tree(list, path) {
     const tree = [];

@@ -1,7 +1,7 @@
 # setTimeout 实现 setInterval
 使用 setTimeout 实现 setInterval
 
-# 测试用例
+## 测试用例
 ```javascript
 var fn = (text) => {
     console.log(Date.now(), text);
@@ -9,7 +9,7 @@ var fn = (text) => {
 mockInterval(fn, 2000, 'test');
 ```
 
-# 代码实现
+## 代码实现
 ```javascript
 let timer;
 
