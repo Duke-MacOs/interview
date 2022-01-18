@@ -1,4 +1,4 @@
-# 模拟 lodash _.get 函数
+# 模拟 Symbol
 实现一个 Symbol，满足以下条件：
 
 返回的值不能相同
